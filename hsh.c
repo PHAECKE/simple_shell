@@ -210,4 +210,3 @@ void handle_redirects(info_t *info)
 		}
 	}
 }
-fhg
