@@ -209,3 +209,4 @@ void handle_redirects(info_t *info)
 			exit(1);
 		}
 	}
+}

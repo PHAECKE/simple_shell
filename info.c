@@ -142,3 +142,4 @@ void print_info(info_t *info)
 	printf("info->heredoc_cmd:[%s]\n", info->heredoc_cmd);
 	printf("pipefd:[%d][%d]\n", info->pipefd[0], info->pipefd[1]);
 	printf("==========================\n");
+}

@@ -163,3 +163,4 @@ char *help_flag_check(info_t *info, char **arg)
 	}
 	else
 		return (builtin);
+}

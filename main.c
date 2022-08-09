@@ -25,3 +25,4 @@ int main(int ac, char **av)
 	read_startup_file(info);
 	hsh(info, av);
 	return (EXIT_SUCCESS);
+}

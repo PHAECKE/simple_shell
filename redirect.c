@@ -189,3 +189,4 @@ void restore_stdfd(info_t *info)
 		close(info->dup_stdout);
 		info->dup_stdout = 0;
 	}
+}

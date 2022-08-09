@@ -83,3 +83,4 @@ void help_pwd(info_t *info)
 		"    cannot be read.\n");
 	}
 	info->help = NULL;
+}

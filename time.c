@@ -111,3 +111,4 @@ char *its_month(int month_int)
 
 	month_string = months[month_int];
 	return (month_string);
+}

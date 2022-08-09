@@ -89,3 +89,4 @@ char *_strchrlast(char *s, char c)
 		s = p + 1;
 	}
 	return (ret);
+}

@@ -15,3 +15,4 @@ void open_pipe(info_t *info)
 	}
 	/* set right redirect to write-end of pipe */
 	info->right_redirect_to_fd = info->pipefd[1];
+}

@@ -1,5 +1,5 @@
 #ifndef _GETLINE_H_
-#define GETLINE_H
+#define _GETLINE_H_
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -40,4 +40,4 @@ char *__read_buf(FdBuf *fb);
 FdBuf *get_fdbuf(FdBuf *head, const int fd);
 char *__strchr(char *s, char c, ssize_t size);
 
-#end
+#endif

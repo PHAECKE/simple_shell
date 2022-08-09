@@ -1,5 +1,5 @@
 #ifndef _SHELL_H_
-#define SHELL_H
+#define _SHELL_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -311,4 +311,4 @@ char *create_time(int);
 char *its_weekday(int);
 char *its_month(int);
 
-#end
+#endif

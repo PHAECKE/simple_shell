@@ -132,3 +132,4 @@ void print_prompt(info_t *info)
 			_puts(prompt);
 		_puts(_PS1);
 	}
+}

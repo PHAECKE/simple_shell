@@ -33,3 +33,4 @@ void print_error_noarg(info_t *info, char *estr)
 	_eputs(": ");
 	_eputs(estr);
 	_eputchar(BUF_FLUSH);
+}

@@ -143,3 +143,4 @@ void help_history(info_t *info)
 		printf("given or an error occurs.\n");
 	}
 	info->help = NULL;
+}

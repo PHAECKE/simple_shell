@@ -48,3 +48,4 @@ void read_startup_file(info_t *info)
 	sprintf(buf, "%s/%s", _getenv(info, "HOME="), STARTUP_FILE);
 	info->startup_fd = open_file(info, buf, 1);
 	free(buf);
+}
