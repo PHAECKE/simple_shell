@@ -24,7 +24,7 @@ In addition to searching the path, the following features are supported.
    || - OR Logical operator
    < << >> > - Left and Right stream redirection
    | - Pipe stream redirection
-   $? $$ - variable replacement   
+   $? $$ - variable replacement
    FILE - Can take a file as command line argument
    $PS1 - Customizable PS1 prompt variable
 
