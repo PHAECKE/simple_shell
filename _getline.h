@@ -32,7 +32,7 @@ typedef struct fd
 	size_t len;
 	struct fd *next;
 } FdBuf;
-
+lovly
 #define READ_SIZE 1024
 
 char *__getline(const int fd);
